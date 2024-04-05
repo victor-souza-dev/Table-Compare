@@ -180,7 +180,7 @@ export function TableCompare({ currentDataProp, newDataProp }: IProps) {
             </Grid>
             <Grid container width={"100%"} flexDirection={"row"} gap={4}>
                 {[currentData, newData].map((data, indexType) => (
-                    <Grid item xs={12} sm={5.85}>
+                    <Grid item xs={12} xl={5.85}>
                         <Grid container flexDirection={'column'}>
                             <Grid item key={v4()} xs={6} pl={{ md: 7 }} pb={1}>
                                 <Typography variant="button">{indexType === 0 ? "Antes" : "Depois"}</Typography>
