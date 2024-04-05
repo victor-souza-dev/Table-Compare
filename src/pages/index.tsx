@@ -29,13 +29,13 @@ export default function Index() {
                     <Grid item sx={{ display: 'flex' }} flexDirection={'column'} gap={1}>
                         <Grid item sx={{ display: 'flex', alignItems: 'center', }} gap={1}>
                             <Box width={15} height={15} bgcolor={statusColorCompare.Created} borderRadius={'100%'} />
-                            <Typography variant={"subtitle2"} fontWeight={'bold'}>
+                            <Typography variant={"subtitle2"}>
                                 Adicionado
                             </Typography>
                         </Grid>
                         <Grid item sx={{ display: 'flex', alignItems: 'center', }} gap={1}>
                             <Box width={15} height={15} bgcolor={statusColorCompare.Deleted} borderRadius={'100%'} />
-                            <Typography variant={"subtitle2"} fontWeight={'bold'}>
+                            <Typography variant={"subtitle2"}>
                                 Removido
                             </Typography>
                         </Grid>
@@ -43,13 +43,13 @@ export default function Index() {
                     <Grid item sx={{ display: 'flex' }} flexDirection={'column'} gap={1}>
                         <Grid item sx={{ display: 'flex', alignItems: 'center', }} gap={1}>
                             <Box width={15} height={15} bgcolor={statusColorCompare.Updated} borderRadius={'100%'} />
-                            <Typography variant={"subtitle2"} fontWeight={'bold'}>
+                            <Typography variant={"subtitle2"}>
                                 Alterado
                             </Typography>
                         </Grid>
                         <Grid item sx={{ display: 'flex', alignItems: 'center', }} gap={1}>
                             <Box width={15} height={15} bgcolor={statusColorCompare.Reordered} borderRadius={'100%'} />
-                            <Typography variant={"subtitle2"} fontWeight={'bold'}>
+                            <Typography variant={"subtitle2"}>
                                 Reordenado
                             </Typography>
                         </Grid>
