@@ -297,9 +297,9 @@ export function TableCompare({ currentDataProp, newDataProp }: IProps) {
                                                     // onMouseEnter={() => handleMouseEnter(row.code)}
                                                     // onMouseLeave={resetOrderHover}
                                                     >
-                                                        <TableCell align="left">{formatTextLimit(row.code)}</TableCell>
-                                                        <TableCell align="left">{formatTextLimit(row.name)}</TableCell>
-                                                        <TableCell align="left">{formatTextLimit(row.type)}</TableCell>
+                                                        <TableCell align="left">{formatTextLimit(row.code as string)}</TableCell>
+                                                        <TableCell align="left">{formatTextLimit(row.name as string)}</TableCell>
+                                                        <TableCell align="left">{formatTextLimit(row.type as string)}</TableCell>
                                                     </TableRow>
                                                 );
                                             })}
